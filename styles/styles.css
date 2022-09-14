@@ -1,0 +1,62 @@
+body{
+   
+    position: relative;
+width: 1440px;
+height: 1024px;
+
+background: #E3DDDD;
+}
+
+.banner{
+   
+    position: absolute;
+    width: 1440px;
+    height: 78px;
+    left: 0px;
+    top: 33px;
+    border-radius: 20px;
+    background: #ACA5A5;
+}
+
+.bannerText{
+    
+    list-style: none;
+    position: absolute;
+    width: 485px;
+    height: 24px;
+    left: 477px;
+    top: 27px;
+    display: flex;
+}
+
+
+.githubIcon {
+    
+    position: absolute;
+width: 56px;
+height: 51px;
+left: 16px;
+top: 14px;
+    
+    
+}
+
+.menu{
+    position: absolute;
+width: 53px;
+height: 56px;
+left: 1343px;
+top: 11px;
+
+}
+
+.bannerTe{
+    list-style: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    gap: 180px;
+    display: flex;
+}
