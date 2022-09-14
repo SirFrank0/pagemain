@@ -1,56 +1,62 @@
+*{
+    
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+
 body{
-   
+    width: 100%;
+    height: 100vh;
+    background: #E3DDDD;
 
-width: 100%;
-height: 100vh;
-margin: 0%;
-padding: 0%;
-
-background: #E3DDDD;
 }
 
 .banner{
-   
-    width: 100px;
+
+    margin-top: 16px;
+    width: 100%;
     height: 80px;
     border-radius: 20px;
     background: #ACA5A5;
-}
-
-.bannerText{
-    
-    width: 485px;
-    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
     
 }
 
 
-.githubIcon {
-    
-    
+
+.githubIcon { 
 width: 56px;
 height: 51px;
+margin-left: 1%;
 
-    
-    
 }
 
-.menu{
-    
+.menu{ 
 width: 53px;
 height: 56px;
-
-
+margin-right: 8px;
 }
 
 .bannerText ul{
     list-style: none;
     font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
     font-size: 20px;
-    line-height: 24px;
-    gap: 20px;
     display: flex;
+    align-items: center;
+    padding: 0%;
+    gap: 16px;
+  
+}
+
+
+@media (max-width: 420px){
+    .bannerText{
+        display: none;
+    }
 }
 
