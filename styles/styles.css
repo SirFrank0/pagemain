@@ -30,7 +30,7 @@ nav{
 
 .githubIcon { 
     width: 178px;
-    height: 160px;
+    height: 164px;
 margin-left: 8px;
 
 }
@@ -43,12 +43,12 @@ margin-right: 8px;
 
 .bannerText ul{
     list-style: none;
-    font-family: 'Inter';
-    font-size: 20px;
+    font-family: 'Roboto';
+    font-size: 32px;
     display: flex;
     align-items: center;
     padding: 0%;
-    gap: 16px;
+    gap: 140px;
     color: #f8efed;
   
 }
