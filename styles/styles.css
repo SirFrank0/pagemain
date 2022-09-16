@@ -89,13 +89,14 @@ nav{
 
 .about p{
 
-    
+    min-width: 661px;
 
     font-size: 16px;
     line-height: 19px;
     color: #20312E;
     width: 40%;
     margin-left: 8px
+    
 }
 
 
