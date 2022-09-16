@@ -2,8 +2,8 @@
 
 
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -60,10 +60,6 @@ nav{
   
 }
 
-.about{
- 
-
-}
 
 .about h1{
     
@@ -71,7 +67,11 @@ nav{
     font-size: 96px;
     line-height: 112px;
     color: #209DD8;
-    margin-left: 8px
+    margin-left: 76px;
+    margin-top: 30px;
+    font-weight: bold;
+    
+    
 }
 
 .about h2{
@@ -80,18 +80,25 @@ nav{
     font-size: 48px;
     line-height: 56px;    
     color: #1AB7AD;
-    margin-left: 8px
+    margin-left: 8px;
+    margin-top: 37px;
+    margin-left: 76px;
+    font-weight: bold;
+    
 }
 
 .about p{
 
-    min-width: 661px;
+    min-width: 589px;
 
     font-size: 16px;
     line-height: 19px;
     color: #20312E;
     width: 40%;
-    margin-left: 8px
+    margin-left: 76px;
+    margin-top: 30px;
+    font-weight:bolder;
+
     
 }
 
@@ -106,12 +113,38 @@ nav{
 
 .pic-1row{
     display: flex;
+    align-items: flex-end;
 }
 
 .walterPics-about{
     display: flex;
     flex-direction: column;
+    padding-right: 10%;
+    margin-top: 30px;
 }
+
+.walter_2{
+    width: 155px;
+    height: 204px;
+   
+}
+
+.walter_1{
+    width: 254px;
+    height: 326px;
+}
+
+.walter_3{
+    width: 143px;
+    height: 190px;
+}
+
+.walter_4{
+    width: 374px;
+    height: 259px;
+    align-self: center;
+}
+
 
 
 @media (max-width: 420px){
