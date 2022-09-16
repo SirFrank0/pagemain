@@ -114,6 +114,8 @@ nav{
 .pic-1row{
     display: flex;
     align-items: flex-end;
+    gap: 8px;
+    margin-bottom: 8px;
 }
 
 .walterPics-about{
@@ -126,23 +128,27 @@ nav{
 .walter_2{
     width: 155px;
     height: 204px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
    
 }
 
 .walter_1{
     width: 254px;
     height: 326px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .walter_3{
     width: 143px;
     height: 190px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.walter_4{
+.walter_5{
     width: 374px;
     height: 259px;
     align-self: center;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 
@@ -177,6 +183,7 @@ nav{
 .about-2 img{
     width: 314px;
     height: 490px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 
