@@ -51,6 +51,11 @@ nav{
     border: none;
     color: #f8efed;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    
+}
+
+.donate-btn:hover{
+    font-weight: bold;
 }
 
 .bannerText ul{
@@ -62,6 +67,21 @@ nav{
     gap: 140px;
     color: #f8efed;
   
+}
+
+.li-about:hover{
+    font-size: 40px;
+    transition-duration: 0.8s;
+}
+
+.li-help:hover{
+    font-size: 40px;
+    transition-duration: 0.8s;
+}
+
+.li-visitors:hover{
+    font-size: 40px;
+    transition-duration: 0.8s;
 }
 
 
@@ -223,6 +243,7 @@ nav{
 .about-3 img{
     width: 382px;
     height: 416px;
+    
 }
 
 
