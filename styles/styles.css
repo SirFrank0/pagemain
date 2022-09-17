@@ -55,7 +55,8 @@ nav{
 }
 
 .donate-btn:hover{
-    font-weight: bold;
+    font-size: 36px;
+    transition-duration: 0.8s;
 }
 
 .bannerText ul{
@@ -66,7 +67,13 @@ nav{
     padding: 0%;
     gap: 140px;
     color: #f8efed;
+    
   
+}
+
+.bannerText a{
+    text-decoration:none;
+    color: #f8efed;
 }
 
 .li-about:hover{
