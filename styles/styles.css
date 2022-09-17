@@ -247,6 +247,30 @@ nav{
     display: flex;
 }
 
+.container-donate-message img{
+    width: 236px;
+    height: 236px;
+}
+
+.p-donate-1{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    color: #F8EFED;
+}
+
+.p-donate-2{
+    font-family: 'Roboto';
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 42px;
+    text-align: center;
+    color: #F8EFED;
+
+}
+
 
 
 
