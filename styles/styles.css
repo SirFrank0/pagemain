@@ -62,7 +62,7 @@ nav{
 
 .bannerText ul{
     list-style: none;
-    font-size: 2em;
+    font-size: 2rem;
     display: flex;
     align-items: center;
     gap: 3.375em;
@@ -104,14 +104,20 @@ nav{
     margin-left: 1.25rem;
     gap: 1.25rem;
     max-width: 123.75rem;
-    
+    text-align: left;
 }
 
+.about{
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
 
 .about h1{
     font-size: 6rem;
     color: #209DD8;
     font-weight: bold;
+    font-display:
 }
 
 .about h2{
@@ -129,7 +135,14 @@ nav{
     max-width: 40.75rem;
 }
 
-
+.walterPics-about{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+    
+}
 
 .pic-1row{
     display: flex;
@@ -138,15 +151,11 @@ nav{
     margin-bottom: 0.5rem;
 }
 
-.walterPics-about{
-    display: flex;
-    flex-direction: column;
-    
-}
+
 
 .walter_2{
-    width: 9.6875rem;
-    height: 12.75rem;
+    width: 9.6875em;
+    height: 12.75em;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
    
 }
@@ -185,6 +194,7 @@ nav{
     margin-left: 1.25rem;
     max-width: 123.75rem;
     align-self: center;
+    text-align: left;
 
 }
 
@@ -195,7 +205,10 @@ nav{
     color: #20312E;
     width: 50%;
     font-weight: normal;
-    max-width: 40.75rem;
+    max-width: 60.75rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
     
 }
 
@@ -203,6 +216,9 @@ nav{
     width: 19.625rem;
     height: 30.625rem;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    margin-left: 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
 }
 
 /*about3*/
@@ -219,6 +235,7 @@ nav{
     align-items: center;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     max-width: 123.75rem;
+    text-align: left;
 }
 
 .about-3 p{
@@ -227,11 +244,17 @@ nav{
     width: 50%;
     font-weight: normal;
     max-width: 40.75rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
 }
 
 .about-3 img{
     width: 23.875rem;
     height: 26rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
 }
 
 /*g-donate*/
@@ -371,7 +394,11 @@ footer{
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
-@media (min-width: 1200px) { 
+@media (max-width: 1200px) { 
+
+    body{
+        font-size: 14px;
+    }
     
 
 }
