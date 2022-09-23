@@ -486,6 +486,10 @@ Extra large devices (large desktops, 1200px and up)
         font-size: 6px;
     }
 
+    .g-about img{
+        font-size: 10px;
+    }
+
 }
 
 
