@@ -473,7 +473,10 @@ Extra large devices (large desktops, 1200px and up)
         font-size: 10px;
     }
 
-    .gabout 
+    .about{
+        margin-left: 4px;
+        margin-right: 4px;
+    }
 
     .about-2,.about-3{
         font-size: 8px;
