@@ -440,13 +440,40 @@ Extra large devices (large desktops, 1200px and up)
     body{
         font-size: 10px;
     }
+
+    .g-about{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .about-2,.about-3{
+        font-size: 12px;
+        
+
+    }
 }
 
 @media (max-width: 576px)
 {
 
     body{
-        font-size: 6px;
+        font-size: 8px;
     }
+
+    .g-about{
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        font-size: 11px;
+    }
+
+    .about-2,.about-3{
+        font-size: 10px;
+        
+
+    }
+}
 }
 
