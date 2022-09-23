@@ -24,7 +24,7 @@ nav{
     margin-right:1.25em;
     margin-left: 1.25em;
     height: 5em;
-    border-radius: 20px;
+    border-radius: 1.25em;
     background: #209DD8;
     display: flex;
     align-items: center;
@@ -46,7 +46,7 @@ nav{
     height: 1.875em;
     margin-right: 0.5em;
     background: #C0E081;
-    border-radius: 32px;
+    border-radius: 2em;
     font-size: 2em;
     border: none;
     color: #f8efed;
@@ -73,17 +73,17 @@ nav{
 }
 
 .li-about:hover{
-    font-size: 2.5em;
+    font-size: 1.5em;
     transition-duration: 0.8s;
 }
 
 .li-help:hover{
-    font-size: 2.5em;
+    font-size: 1.5em;
     transition-duration: 0.8s;
 }
 
 .li-visitors:hover{
-    font-size: 2.5em;
+    font-size: 1.5em;
     transition-duration: 0.8s;
 }
 
@@ -96,7 +96,7 @@ nav{
     justify-content: space-around;
     margin-top: 1em;
     background: #F8EFED;
-    border-radius: 24px;
+    border-radius: 1.5em;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     margin-right:1.25em;
     margin-left: 1.25em;
@@ -186,7 +186,7 @@ nav{
     align-items: center;
     justify-content: space-around;
     background: #F8EFED;
-    border-radius: 24px;
+    border-radius: 1.5em;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     margin-right:1.25em;
     margin-left: 1.25em;
@@ -263,7 +263,7 @@ nav{
     margin-right:1.25em;
     margin-left: 1.25em;
     background: #209DD8;
-    border-radius: 24px;
+    border-radius: 1.5em;
     gap: 3em;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
     display: flex;
@@ -310,14 +310,14 @@ nav{
     width: 58em;
     height: 10.3125em;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 32px;
+    border-radius: 2em;
 }
 
 .donate_button-donate{
     width: 20.125em;
     height: 9.4375em;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    border-radius: 32px;
+    border-radius: 2em;
     margin-bottom: 1em;
 }
 
@@ -330,7 +330,7 @@ nav{
     height: 17.1875em;
     background: #20312E;
     box-shadow: 0px 4px 8px 4px rgba(48, 62, 64, 0.25); 
-    border-radius: 24px;
+    border-radius: 1.5em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -373,8 +373,8 @@ footer{
 
 
 
-
-/* Small devices (landscape phones, 576px and up)*/
+/*
+Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) { 
     body{
         font-size: 10px;
@@ -382,7 +382,7 @@ footer{
 
  }
 
-/* Medium devices (tablets, 768px and up)*/
+Medium devices (tablets, 768px and up)
 @media (min-width: 768px) { 
     
     body{
@@ -390,7 +390,7 @@ footer{
     }
  }
 
-/* Large devices (desktops, 992px and up)*/
+ Large devices (desktops, 992px and up)
 @media (min-width: 992px) { 
     body{
         font-size: 14px;
@@ -398,7 +398,7 @@ footer{
 
 }
 
-/* Extra large devices (large desktops, 1200px and up)*/
+Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) { 
 
     body{
@@ -407,3 +407,39 @@ footer{
     
 
 }
+
+*/
+@media (max-width: 1200px)
+{
+
+    body{
+        font-size: 14px;
+    }
+}
+
+
+
+@media (max-width: 992px)
+{
+
+    body{
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px)
+{
+
+    body{
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 576px)
+{
+
+    body{
+        font-size: 6px;
+    }
+}
+
