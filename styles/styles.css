@@ -14,6 +14,7 @@ body{
     font-size: 16px;
     width: 100%; 
     
+    
 }
 
 
@@ -31,6 +32,7 @@ nav{
     justify-content:space-between;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)); 
     max-width: 123.75em;
+    margin-inline: auto;
     
 }
 
