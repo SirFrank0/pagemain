@@ -490,6 +490,15 @@ Extra large devices (large desktops, 1200px and up)
         font-size: 10px;
     }
 
+    .walterPics-about{
+        display: flex;
+        flex-direction: column;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-right: 0;
+        
+    }
+
 }
 
 
