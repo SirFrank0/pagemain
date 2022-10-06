@@ -9,6 +9,7 @@
 
 main{
     display: grid;
+    place-content: center;
 }
 
 body{
